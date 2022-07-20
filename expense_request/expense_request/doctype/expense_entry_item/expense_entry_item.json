@@ -7,6 +7,7 @@
  "field_order": [
   "expense_details_section",
   "expense_account",
+  "voucher_number",
   "description",
   "column_break_4",
   "amount",
@@ -73,12 +74,17 @@
   {
    "fieldname": "column_break_4",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "voucher_number",
+   "fieldtype": "Data",
+   "label": "Voucher Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2020-11-26 13:59:41.581004",
+ "modified": "2022-07-20 15:54:12.427352",
  "modified_by": "Administrator",
  "module": "Expense Request",
  "name": "Expense Entry Item",
@@ -87,5 +93,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

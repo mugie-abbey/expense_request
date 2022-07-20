@@ -50,8 +50,7 @@
    "allow_in_quick_entry": 1,
    "fieldname": "required_by",
    "fieldtype": "Datetime",
-   "label": "Required By",
-   "reqd": 1
+   "label": "Required By"
   },
   {
    "allow_in_quick_entry": 1,
@@ -193,10 +192,11 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-09-11 16:18:40.302048",
+ "modified": "2022-07-20 15:57:57.767990",
  "modified_by": "Administrator",
  "module": "Expense Request",
  "name": "Expense Entry",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -250,5 +250,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
